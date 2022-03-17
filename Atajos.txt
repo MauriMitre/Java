@@ -1,0 +1,10 @@
+Sout + tab
+soutv + tab
+psvm + tab(main)
+Alt + Shift + F: le da formato al código
+Alt + Shift + Arriba o Abajo : Sube y baja las lineas
+Ctrl + Shift + Arriba o Abajo: Hace una copia de la linea de código en la que estabas posicionado
+Ctrl + E : Borra lineas de código.
+Alt + Insert: Agrega constructores, métodos accesores, propiedades, overrides, etc..
+Alt + Enter : Se usa sobre el texto subrayado para ver la sugerencia que nos hace el IDE cuando hay algún error de sintaxis o se necesita realizar algún import o surround
+Ctrl + R: Si lo hacemos sobre el identificador, renombra todas las ocurrencias.
