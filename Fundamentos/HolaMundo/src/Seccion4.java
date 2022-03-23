@@ -1,7 +1,10 @@
 
-public class Seccion4 {
+import java.util.Scanner;
 
-    public static void main(String[] args) {
+
+//public class Seccion4 {
+
+//    public static void main(String[] args) {
         //Operadores aritmeticos
 //        int a = 3, b = 3;
 //        var resultado = a + b;
@@ -58,26 +61,66 @@ public class Seccion4 {
 //        System.out.println("l = " + l);
 
         //Igualdad y relacionales
-         var a = 3;
-         var b = 3;
-         var c = (a == b);
-         System.out.println("c = " + c);
-         
-         var d = (a!=b);
-         System.out.println("d = " + d);
-         
-         var cadena = "Hola";
-         var cadena2 = "Adios";
-         var cadena3 = "Hola";
-         
-         var f = cadena.equals(cadena2);
-         var h = cadena.equals(cadena3);
-         System.out.println("f = " + f);
-         System.out.println("h = " + h);
-         
-         var g = a >= b;// <, >, >=, <=
-         System.out.println("g = " + g);
-         
-    }
+//         var a = 3;
+//         var b = 3;
+//         var c = (a == b);
+//         System.out.println("c = " + c);
+//         
+//         var d = (a!=b);
+//         System.out.println("d = " + d);
+//         
+//         var cadena = "Hola";
+//         var cadena2 = "Adios";
+//         var cadena3 = "Hola";
+//         
+//         var f = cadena.equals(cadena2);
+//         var h = cadena.equals(cadena3);
+//         System.out.println("f = " + f);
+//         System.out.println("h = " + h);
+//         
+//         var g = a >= b;// <, >, >=, <=
+//         System.out.println("g = " + g);
 
-}
+        //Operadores condicionales
+        
+//        var a = 10;
+//        var valorMinimo = 0;
+//        var valorMaximo = 10;
+//        
+//        var resultado = a >= 0 && a <= 10;
+//        System.out.println("resultado = " + resultado);
+        
+        //Opeardor ternario
+//        var resultado = (3 > 2) ? "verdadero" : "falso";
+//        System.out.println("resultado = " + resultado);
+//        var numero = 9;
+//        resultado = (numero %2 == 0) ? "verdadero" : "falso";
+//        System.out.println("resultado = " + resultado);
+
+        //precedencia de operadores
+//         var x = 5;
+//         var y = 10;
+//         var z = ++x + y--;
+//         System.out.println("z = " + z);
+//         System.out.println("x = " + x);
+//         System.out.println("y = " + y);
+//         
+//         var resultado = 4 + 5 * 6 / 3 ;
+//         System.out.println("resultado = " + resultado);
+
+        //Solicitar numero y ver cual es mayor
+//        int numero1,numero2;
+//        var consola = new Scanner(System.in);
+//        System.out.print("Ingresar primer numero: ");
+//        numero1 = consola.nextInt();
+//        System.out.print("Ingresar segundo numero: ");
+//        numero2 = consola.nextInt();
+//        if (numero1 > numero2) {
+//            System.out.println("El numero mayor es: " + numero1);
+//        }else{
+//            System.out.println("El numero mayor es: " + numero2);
+//        }
+//        
+//    }
+//
+//}
